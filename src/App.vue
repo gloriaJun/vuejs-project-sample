@@ -3,7 +3,7 @@
     <layout-header />
     <!-- Begin page content -->
     <main role="main" class="container">
-      <home/>
+      <default-home/>
     </main>
     <layout-footer />
   </div>
@@ -13,7 +13,7 @@
   import LayoutHeader from './components/layout/LayoutHeader'
   import LayoutFooter from './components/layout/LayoutFooter'
 
-  import Home from './components/Home'
+  import DefaultHome from './components/DefaultHome'
 
   export default {
     name: 'app',
@@ -25,7 +25,7 @@
     components : {
       'layout-header': LayoutHeader,
       'layout-footer': LayoutFooter,
-      'home': Home
+      'default-home': DefaultHome
     }
   };
 </script>
