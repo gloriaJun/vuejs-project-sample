@@ -3,7 +3,6 @@
     <layout-header />
     <!-- Begin page content -->
     <main role="main" class="container">
-      <!--<default-home/>-->
       <router-view></router-view>
     </main>
     <layout-footer />
