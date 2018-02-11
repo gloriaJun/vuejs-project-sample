@@ -3,7 +3,8 @@
     <layout-header />
     <!-- Begin page content -->
     <main role="main" class="container">
-      <default-home/>
+      <!--<default-home/>-->
+      <router-view></router-view>
     </main>
     <layout-footer />
   </div>
@@ -13,19 +14,15 @@
   import LayoutHeader from './components/layout/LayoutHeader'
   import LayoutFooter from './components/layout/LayoutFooter'
 
-  import DefaultHome from './components/DefaultHome'
-
   export default {
     name: 'app',
     data() {
       return {
-        msg : 'Hello111'
       }
     },
     components : {
       'layout-header': LayoutHeader,
-      'layout-footer': LayoutFooter,
-      'default-home': DefaultHome
+      'layout-footer': LayoutFooter
     }
   };
 </script>
