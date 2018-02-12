@@ -8,6 +8,7 @@ import Sample from '../components/Sample'
 Vue.use(Router)
 
 export default new Router ({
+  mode: 'history',
   routes: [
     {
       path: '/',
