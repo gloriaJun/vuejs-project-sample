@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <layout-header />
+    <app-header />
     <!-- Begin page content -->
     <main role="main" class="container">
       <router-view></router-view>
     </main>
-    <layout-footer />
+    <app-footer />
   </div>
 </template>
 
 <script>
-  import LayoutHeader from './components/layout/LayoutHeader'
-  import LayoutFooter from './components/layout/LayoutFooter'
+  import AppHeader from './components/layout/AppHeader'
+  import AppFooter from './components/layout/AppFooter'
 
   export default {
     name: 'app',
@@ -20,8 +20,8 @@
       }
     },
     components : {
-      'layout-header': LayoutHeader,
-      'layout-footer': LayoutFooter
+      'app-header': AppHeader,
+      'app-footer': AppFooter
     }
   };
 </script>
