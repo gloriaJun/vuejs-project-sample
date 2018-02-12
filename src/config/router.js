@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import DefaultHome from '../components/DefaultHome'
 import Sample from '../components/Sample'
+import NotFound from '../components/NotFound'
 
 
 Vue.use(Router)
@@ -11,13 +12,15 @@ export default new Router ({
   routes: [
     {
       path: '/',
-      name: 'default-home',
       component: DefaultHome
     },
     {
       path: '/sample',
-      name: 'sample',
       component: Sample
+    },
+    {
+      path: '*',
+      component: NotFound
     }
   ]
 })
