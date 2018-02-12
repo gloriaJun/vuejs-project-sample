@@ -8,7 +8,7 @@ import router from './config/router.js'
  */
 import './assets/style/custom-bootstrap.scss';
 import '../node_modules/bootstrap/scss/bootstrap.scss';
-import './assets/style/style.scss';
+import './assets/style/main.scss';
 
 
 
