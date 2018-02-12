@@ -13,7 +13,7 @@
           <router-link to="/" class="btn btn-primary btn-lg">
             <span class="glyphicon glyphicon-home"></span>Home
           </router-link>
-          <a href="http://www.jquery2dotnet.com" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Contact Support </a>
+          <a href="http://www.jquery2dotnet.com" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-envelope"></span> Contact Support </a>
         </div>
       </div>
     </div>
@@ -26,5 +26,7 @@
 </script>
 
 <style scoped>
-
+  .error-template {padding: 40px 15px;text-align: center;}
+  .error-actions {margin-top:15px;margin-bottom:15px;}
+  .error-actions .btn { margin-right:10px; }
 </style>
