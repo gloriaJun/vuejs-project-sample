@@ -68,10 +68,8 @@ module.exports = {
         }
       },
       {
-        test: /\.(woff|woff2|eot|ttf|svg)$/,
-        use: {
-          loader: 'url-loader?limit=1024&name=/fonts/[name].[ext]'
-        }
+        test: /\.(woff|woff2|eot|ttf|svg)(\?.*$|$)/,
+        loader: 'url-loader?importLoaders=1&limit=100000'
       }
     ]
   },
